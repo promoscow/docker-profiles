@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  back:
+    image: xpendence/profiles:0.0.1
+    environment:
+      - env=prod
