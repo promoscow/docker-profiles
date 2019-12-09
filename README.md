@@ -12,3 +12,5 @@
         image: xpendence/profiles:0.0.1
         environment:
           - env=prod
+
+Для работы в переменной окружения dev из примера мы прописываем эту переменную в IDEA в VM options как -Denv=dev
